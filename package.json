@@ -6,6 +6,14 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "^3.0.0-27376999.6abf75d"
+    "@pinia/nuxt": "^0.1.8",
+    "@vueuse/nuxt": "^7.5.4",
+    "autoprefixer": "^10.4.0",
+    "nuxt3": "^3.0.0-27383920.81ee59c",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "pinia": "^2.0.9"
   }
 }
